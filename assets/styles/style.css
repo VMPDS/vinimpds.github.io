@@ -10,13 +10,12 @@
 }
 
 .subtitle {
-    margin: 0 0 22px;
+    margin: 0 0 27px;
     color: #777;
     font-size: 18px;
 } 
 
 .social a {
-    margin: 0 10px;
     color: #f7f7f7;
     text-decoration: none;
     font-size: 20px;
@@ -30,17 +29,24 @@
     filter: brightness(0.89);
 }
 
-.social .instagram-button{
+.social .instagram-button {
     background-color: #E4405F;
+    padding: 6px 11px 6px 11.5px;
 }
 
 .social .facebook-button {
     background-color: #1877F2;
+    padding: 6px 11px 6px 11.5px;
 }
 
 .social .linkedin-button {
     background-color: #0A66C2;
-    padding: 6px 12px;
+    padding: 6px 11.25px;
+}
+
+.social .youtube-button {
+    background-color: #FF0000;
+    padding: 6px 8.75px;
 }
 
 .profile {
@@ -49,10 +55,66 @@
 }
 
 .animationFadeIn {
-    animation: FadeIn 1s linear;
+animation: FadeIn 0.4s linear;
 }
 
 @keyframes FadeIn {
 From {opacity: 0}
 To {opacity: 1}
+}
+
+.text-paragraph a {
+    border-bottom: 2px solid #9999;
+}
+
+.animationSize .animationLinkedin {
+animation: animationScale 2s linear;
+width: 40px;
+height: 40px;
+margin: 0 10px;
+}
+
+@keyframes animationScale {
+0% {transform: scale(0)}
+25% {transform: scale(0)}
+50% {transform: scale(1)}
+}
+
+.animationSize .animationFacebook {
+animation: animationScale2 2.5s linear;
+width: 40px;
+height: 40px;
+margin: 0 10px;
+}
+
+@keyframes animationScale2 {
+0% {transform: scale(0)}
+40% {transform: scale(0)}
+60% {transform: scale(1)}
+}
+
+.animationSize .animationInstagram {
+animation: animationScale3 3s linear;
+width: 40px;
+height: 40px;
+margin: 0 10px;
+}
+
+@keyframes animationScale3 {
+0% {transform: scale(0)}
+50% {transform: scale(0)}
+67% {transform: scale(1)}
+}
+
+.animationSize .animationYoutube {
+animation: animationScale4 3.5s linear;
+width: 40px;
+height: 40px;
+margin: 0 10px;
+}
+
+@keyframes animationScale4 {
+0% {transform: scale(0)}
+58% {transform: scale(0)}
+71% {transform: scale(1)}
 }

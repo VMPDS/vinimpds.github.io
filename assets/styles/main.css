@@ -20,7 +20,7 @@ html, body {
 .divider {
     display: block;
     width: 100px;
-    margin: 40px auto 30px auto;
+    margin: 40px auto 15px auto;
     border: 0;
     border-top: 1px solid #CCC;
   }
